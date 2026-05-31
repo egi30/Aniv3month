@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#ff80d1">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>3 Bulan Bersama ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background"></div>
+<div class="sparkles"></div>
+<div class="celebrate-badge">🎉 3 Bulan Bersama</div>
+
+<!-- Scroll buttons -->
+<button class="scroll-btn scroll-up" id="scrollUp" title="Scroll ke atas">▲</button>
+<button class="scroll-btn scroll-down" id="scrollDown" title="Scroll ke bawah">▼</button>
+
+<div class="container">
+
+    <div class="hero">
+        <div class="photo-card">
+            <div class="photo-frame">
+                <img src="weli.jpg" alt="Weliyettri Nur Handayani">
+            </div>
+            <div class="photo-name">
+                <span>Weliyettri Nur Handayani</span>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>❤️ Happy 3 Month Anniversary ❤️</h1>
+            <p class="date">01 Maret 2026</p>
+            <p class="subtitle">Untuk sosok istimewa yang membuat setiap hari terasa lebih indah.</p>
+            <p class="tagline">Setiap detik terasa lebih hangat karena kamu.</p>
+        </div>
+    </div>
+
+    <div class="counter">
+        <span>3 Bulan Bersama</span>
+    </div>
+
+    <div class="poem-card">
+        <p class="poem-text">"Dalam setiap detak jantungku, nama kamu adalah melodi terindah.<br>Dalam setiap napas yang kuambil, kamu adalah udara yang membuatku hidup.<br>Bersama kamu, waktu berhenti dan hanya ada kita."</p>
+    </div>
+
+    <div class="wish-card">
+        <p>Untukmu, setiap hari terasa seperti bulan baru yang dipenuhi sinar cinta. Terima kasih sudah membuat dunia kecil ini penuh warna.</p>
+    </div>
+
+    <div class="photo-slideshow">
+        <h3>Kenangan Bersama 📸</h3>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="weli.jpg" alt="Momen Bersama 1">
+            </div>
+            <div class="slide fade">
+                <img src="weli1.jpg" alt="Momen Bersama 2">
+            </div>
+            <div class="slide fade">
+                <img src="weli2.jpg" alt="Momen Bersama 3">
+            </div>
+            <div class="slide fade">
+                <img src="weli3.jpg" alt="Momen Bersama 4">
+            </div>
+            
+            <a class="prev" onclick="changeSlide(-1)">❮</a>
+            <a class="next" onclick="changeSlide(1)">❯</a>
+        </div>
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+
+    <div class="love-gallery">
+        <div class="gallery-item">
+            <div class="emoji-large">💑</div>
+            <p>Kita adalah pasangan</p>
+        </div>
+        <div class="gallery-item">
+            <div class="emoji-large">💞</div>
+            <p>Yang saling melengkapi</p>
+        </div>
+        <div class="gallery-item">
+            <div class="emoji-large">🌹</div>
+            <p>Dengan cinta sejati</p>
+        </div>
+    </div>
+
+
+    <div class="letter-card">
+        <div class="controls">
+            <button class="open-btn" onclick="openLetter()">Buka Surat Cinta</button>
+        </div>
+        <p class="button-hint">Sentuh tombol untuk membuka pesan rahasia.</p>
+
+        <div class="envelope">
+            <div class="cover"></div>
+            <div class="letter" id="letter">
+                <h2>Untuk Kamu 💌</h2>
+                <p>
+                    Selamat 3 Bulan Bersama, Cintaku 🌹
+                    <br><br>
+                    Hari ini bukan sekadar perayaan, tapi pengakuan akan keajaiban yang terjadi dalam hidup kami. Tiga bulan yang terasa seperti selamanya, penuh dengan momen-momen yang membuatku percaya pada cinta sejati.
+                    <br><br>
+                    Setiap senyuman dari wajahmu adalah alasan aku bangun pagi. Setiap kata darimu adalah melodi terindah yang akan selalu bergema di hatiku. Dalam genggaman tangan kamu, aku menemukan rumah, ketenangan, dan harapan.
+                    <br><br>
+                    Terima kasih telah memilih untuk berjalan bersama kami di jalan yang penuh dengan tawa, mimpi, dan cinta. Kamu bukan hanya pacar, kamu adalah jawaban atas doa-doa terpendamku.
+                    <br><br>
+                    Aku berjanji untuk terus melindungi hati ini, menghargai setiap momen bersama kamu, dan membuat cinta kita tumbuh menjadi lebih kuat setiap hari.
+                    <br><br>
+                    "Aku mencintaimu, bukan karena siapa kamu,
+                    tapi karena siapa aku ketika bersama kamu."
+                    <br><br>
+                    Selamanya milikmu,
+                    💖 Forever Yours 💖
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

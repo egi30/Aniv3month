@@ -1,0 +1,11 @@
+{
+  "name": "3 Bulan Bersama",
+  "short_name": "3Bulan",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ff80d1",
+  "theme_color": "#ff80d1",
+  "icons": [
+    { "src": "weli.jpg", "sizes": "192x192", "type": "image/jpeg" }
+  ]
+}
